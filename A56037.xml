@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="http://www.textcreationpartnership.org/docs/code/pfs.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Proposals for printing Horace, Virgil, Terence, Catullus, Tibullus and Propertius, in the new press at Cambridge</title>
+         </titleStmt>
+         <extent>Approx. 21KB of XML-encoded text transcribed from 4 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2016-02">2016-02 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A56037</idno><idno type="EEBO-CITATION">99833671</idno>
+  <idno type="VID">38149</idno>
+  <idno type="EEBO-PROQUEST">2240954585</idno>
+  
+            <idno type="STC">Wing P3734B</idno>
+            <idno type="STC">ESTC R222508</idno>
+            <idno type="PROQUEST">99833671</idno>
+            <availability><p>This keyboarded and encoded edition of the work described above is co-owned by the
+    institutions providing financial support to the Early English Books Online Text Creation
+    Partnership. This text is available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Creative Commons 0 1.0 Universal
+    licence</ref>. The text can be copied, modified, distributed and performed, even for commercial
+    purposes, all without asking permission.</p></availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt><relatedItem type="facs" target="https://data.historicaltexts.jisc.ac.uk/view?pubId=eebo-99833671e"/>
+            <note>(EEBO-TCP ; phase 2, no. A56037)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 38149)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2176:10)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Proposals for printing Horace, Virgil, Terence, Catullus, Tibullus and Propertius, in the new press at Cambridge</title>
+               </titleStmt>
+               <extent>[8] p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1698]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Imprint from Wing.</note>
+                  <note>Reproduction of the original in the Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Full documentation of the original data capture process is available from the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.
+   All versions of the texts are now archived and freely available for download. See <ref target="https://textcreationpartnership.org/faq/#faq05">the TCP Download FAQ</ref>
+   for detailed information. The TEI P5 versions are also freely available from the <ref target="https://github.com/textcreationpartnership">TCP Github repository</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp" matchPattern="([0-9\-]+):([0-9IVX]+)" replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char" matchPattern="(.+)" replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term type="topical_term">Printing --  England --  Cambridge --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2014-07 </date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images </change>
+         <change>
+            <date>2014-11 </date>
+            <label>Mona Logarbo </label>Sampled and proofread </change>
+         <change>
+            <date>2014-11 </date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited </change>
+         <change>
+            <date>2015-03 </date>
+            <label>pfs</label>Batch review (QC) and XML conversion </change>
+      <change><date>2021-05 </date><label>lb</label>TEI P5 conversion </change></revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="prospectus_for_printing_several_Latin_authors">
+            <pb facs="tcp:38149:1"/>
+            <pb facs="tcp:38149:1"/>
+            <div type="list_of_proposals">
+               <list>
+                  <head>PROPOSALS FOR PRINTING <hi>HORACE, VIRGIL, TERENCE, CATULLUS, TIBULLUS</hi> and <hi>PROPERTIUS,</hi> In the New PRESS at CAMBRIDGE.</head>
+                  <item>THAT the Authors above-mention'd shall be printed in the same Form; with the same Letter; and upon the same Paper, as the <hi>Specimen</hi> annex'd.</item>
+                  <item>That several Learned Gentlemen of the University being engag'd to supervise the Work; all imaginable care will be taken that this Edition of the said Authors shall be very Correct.</item>
+                  <item>That there shall be a new <hi>Frontispiece</hi> to each Book, with other Orna<g ref="char:EOLhyphen"/>ments, Design'd and Engrav'd by the best Hands.</item>
+                  <item>That the whole Set, containing about 250 Sheets, will be finish'd in a Twelve-Months time.</item>
+                  <item>That every Subscriber, paying one Guinea in Hand, shall have a Re<g ref="char:EOLhyphen"/>ceipt given him, wherein the Undertaker <hi>Jacob Tonson</hi> obliges himself, upon the payment of a Guinea more, to deliver to the Bearer one com<g ref="char:EOLhyphen"/>pleat Set of the said Books, in Quires, as soon as printed.</item>
+                  <item>That the lowest Price of the said Books, to any but the Subscribers, shall be <hi>Three Pounds</hi> in Quires.</item>
+               </list>
+            </div>
+            <div xml:lang="lat" type="sample_page_of_Horace__Ode_II">
+               <pb facs="tcp:38149:2"/>
+               <head>AD AUGUSTUM CAESAREM. ODE II.</head>
+               <l>JAM satis terris nivis atque dirae</l>
+               <l>Grandinis misit Pater, &amp; rubente</l>
+               <l>Dextera sacras jaculatus arces</l>
+               <l>Terruit urbem:</l>
+               <l n="5">Terruit gentes, grave ne rediret</l>
+               <l>Seculum Pyrrhae nova monstra questae:</l>
+               <l>Omne cum Proteus pecus egit altos</l>
+               <l>Visere montes;</l>
+               <l>Piscium &amp; summa genus haesit ulmo,</l>
+               <l n="10">Nota quae sedes fuerat columbis;</l>
+               <l>Et superjecto pavidae natarunt</l>
+               <l>Aequore damae.</l>
+               <l>Vidimus flavum Tiberim, retortis</l>
+               <l>Litore Etrusco violenter undis,</l>
+               <l n="15">Ire dejectum monumenta Regis,</l>
+               <l>Templaque Vestae:</l>
+               <l>Iliae dum se nimium querenti</l>
+               <gap reason="missing" extent="1+ pages">
+                  <desc>〈1+ pages missing〉</desc>
+               </gap>
+            </div>
+            <div xml:lang="lat" type="sample_page_of_Virgil__Eclogue_I">
+               <pb facs="tcp:38149:2"/>
+               <head>P. VIRGILII MARONIS BUCOLICA. TITYRUS. ECLOGA I.</head>
+               <stage>MELIBOEUS. TITYRUS.</stage>
+               <sp>
+                  <speaker>MEL.</speaker>
+                  <l>TItyre, tu patulae recubans sub tegmine fagi</l>
+                  <l>Silvestrem tenui Musam meditaris avena:</l>
+                  <l>Nos patriae fines, &amp; dulcia linquimus arva;</l>
+                  <l>Nos patriam fugimus: tu, Tityre, lentus in umbra</l>
+                  <l n="5">Formosam resonare doces Amaryllida silvas.</l>
+               </sp>
+               <sp>
+                  <speaker>TIT.</speaker>
+                  <l>O Meliboee, Deus nobis haec otia fecit.</l>
+                  <l>Namque erit ille mihi semper Deus: illius aram</l>
+                  <l>Saepe tener nostris ab ovilibus imbuet agnus.</l>
+                  <l>Ille meas errare boves, ut cernis, &amp; ipsum</l>
+                  <l n="10">Ludere, quae vellem, calamo permisit agresti.</l>
+               </sp>
+               <sp>
+                  <speaker>MEL.</speaker>
+                  <l>Non equidem invideo; miror magis: undi{que} totis</l>
+                  <l>Usque adeo turbatur agris. En ipse capellas</l>
+                  <l>Protenus aeger ago: hanc etiam vix, Tityre, duco.</l>
+                  <l>Hic inter densas corylos modo namque gemellos,</l>
+               </sp>
+               <gap reason="missing" extent="1+ pages">
+                  <desc>〈1+ pages missing〉</desc>
+               </gap>
+            </div>
+            <div type="lists_of_subscribers">
+               <pb facs="tcp:38149:3"/>
+               <head>Subscribers for the Encouragement of this Undertaking.</head>
+               <div type="part">
+                  <list>
+                     <item>His Royal Highness Prince <hi>GEORGE</hi> of <hi>Denmark.</hi>
+                     </item>
+                     <item>The Archbishop of <hi>Canterbury</hi>—3 <hi>Sets.</hi>
+                     </item>
+                     <item>The Lord High Chancellor of <hi>England</hi>—3</item>
+                     <item>The Lord <hi>Privy Seal</hi>—3</item>
+                     <item>The Earl of <hi>Dorset</hi>—3</item>
+                     <item>The Earl of <hi>Anglesey</hi>—1</item>
+                     <item>The Earl of <hi>Burlington</hi>—2</item>
+                     <item>The Earl of <hi>Montague</hi>—3</item>
+                     <item>The Earl of <hi>Marlborough</hi>—3</item>
+                     <item>The Earl of <hi>Romney</hi>—3</item>
+                     <item>The Earl of <hi>Carbery</hi>—1</item>
+                     <item>The Lord <hi>Wharton</hi>—1</item>
+                     <item>The Lord <hi>Cornwallis</hi>—2</item>
+                     <item>The Lord <hi>Townshend</hi>—1</item>
+                     <item>The Lord Bishop of <hi>Salisbury</hi>—3</item>
+                     <item>The Lord Bishop of <hi>Ely</hi>—1</item>
+                     <item>The Lord Bishop of <hi>Norwich</hi>—1</item>
+                     <item>The Lord Bishop of <hi>Lincoln</hi>—1</item>
+                     <item>The Marquiss of <hi>Hartington</hi>—1</item>
+                     <item>The Right Honourable <hi>Charles Montague</hi>—3</item>
+                     <item>The Right Honourable <hi>James Vernon</hi>—3</item>
+                     <item>The Right Honourable <hi>John Smith</hi>—3</item>
+                     <item>The Lord <hi>Henry Cavendish</hi>—1</item>
+                     <item>The Lord <hi>Spencer</hi>—1</item>
+                     <item>The Lord <hi>Ranelagh</hi>—1</item>
+                     <item>The Hon<seg rend="sup">ble</seg>
+                        <hi>Spencer Compton</hi>—2</item>
+                     <item>The Hon<seg rend="sup">ble</seg> Dr. <hi>Leopold Finch</hi>—1</item>
+                     <item>The Hon<seg rend="sup">ble</seg>
+                        <hi>William Fielding</hi>—1</item>
+                     <item>The Hon<seg rend="sup">ble</seg>
+                        <hi>Robert Bruce</hi>—1</item>
+                     <item>The Hon<seg rend="sup">ble</seg>
+                        <hi>Roger Townshend</hi>—1</item>
+                     <item>The Hon<seg rend="sup">ble</seg>
+                        <hi>Francis Godolphin</hi>—1</item>
+                     <item>Sir <hi>John Robinson</hi> Bar.—1</item>
+                     <item>Sir <hi>Charles Turner</hi> Bar.—1</item>
+                     <item>Sir <hi>Basil Firebrace</hi> Bar.—1</item>
+                     <item>Sir <hi>Bartholomew Shoar</hi>—1</item>
+                     <item>Sir <hi>Godfrey Kneller</hi>—1</item>
+                     <item>Sir <hi>Joseph Jekyl</hi>—1</item>
+                     <item>Sir <hi>Richard Blackmore</hi>—1</item>
+                     <item>Sir <hi>Thomas Cudden</hi>—1</item>
+                     <item>Brigadier <hi>William Selwyn</hi>—1</item>
+                     <item>Colonel <hi>Tho: Farington</hi>—1</item>
+                     <item>Colonel <hi>Shrimpton</hi>—1</item>
+                     <item>Colonel <hi>James Stanhope</hi>—1</item>
+                     <item>Colonel <hi>Froud</hi>—1</item>
+                     <item>Dr <hi>John Battely</hi>—1</item>
+                     <item>Dr <hi>Thomas Knipe</hi>—1</item>
+                     <item>Dr <hi>Stephen Waller</hi>—2</item>
+                     <item>Dr <hi>Henry Newton</hi>—1</item>
+                     <item>Dr <hi>William Oldys</hi>—1</item>
+                     <item>Dr <hi>Thomas Lane</hi>—1</item>
+                     <item>Dr <hi>Matthew Lloyd</hi>—1</item>
+                     <item>Dr <hi>Tancred Robinson</hi>—1</item>
+                     <item>Dr <hi>Martin Lister</hi>—1</item>
+                     <item>Mr <hi>George Martyn</hi>—1</item>
+                     <item>St <hi>John Brodrick</hi> Esq;—2</item>
+                     <item>
+                        <hi>Robert Walpole</hi> Esq;—2</item>
+                     <item>
+                        <hi>Fr: Pemberton</hi> Esq;—1</item>
+                     <item>
+                        <hi>Ash Windham</hi> Esq;—1</item>
+                     <item>
+                        <hi>Wlliam Windham</hi> Esq;—1</item>
+                     <item>
+                        <hi>Arthur Maynwaringe</hi> Esq;—1</item>
+                     <item>
+                        <hi>James Compton</hi> Esq;—1</item>
+                     <item>
+                        <hi>Richard Graham</hi> Esq;—1</item>
+                     <item>
+                        <hi>Thomas Lant</hi> Esq;—1</item>
+                     <item>
+                        <hi>Matthew Lant</hi> Esq;—1</item>
+                     <item>
+                        <hi>John Isham</hi> Esq;—1</item>
+                     <item>
+                        <hi>Henry Petty</hi> Esq;—1</item>
+                     <item>
+                        <hi>Thomas Maule</hi> Esq;—1</item>
+                     <item>Mr <hi>William Pate</hi>—1</item>
+                     <item>Mr <hi>Francis Luttrel</hi>—1</item>
+                     <item>
+                        <hi>Richard Topham</hi> Esq;—1</item>
+                     <item>
+                        <hi>Charles Dartiqueneve</hi> Esq;—1</item>
+                     <item>
+                        <hi>Thomas Vernon</hi> Esq;—1</item>
+                     <pb facs="tcp:38149:3"/>
+                     <item>
+                        <hi>John Ellis</hi> Esq;—1</item>
+                     <item>
+                        <hi>Thomas Hopkins</hi> Esq;—1</item>
+                     <item>
+                        <hi>Abraham Stanyon</hi> Esq;—1</item>
+                     <item>
+                        <hi>John Pulteney</hi> Esq;—1</item>
+                     <item>
+                        <hi>Richard Adney</hi> Esq;—1</item>
+                     <item>
+                        <hi>William Congreve</hi> Esq;—1</item>
+                     <item>
+                        <hi>George Liddell</hi> Esq;—1</item>
+                     <item>
+                        <hi>Octavian Pulleyn</hi> Esq;—1</item>
+                     <item>
+                        <hi>Edward Griffins</hi> Esq;—1</item>
+                     <item>Mr <hi>Charles Bernard</hi>—1</item>
+                     <item>
+                        <hi>Richard Symes</hi> Esq;—1</item>
+                     <item>
+                        <hi>William Spencer</hi> Esq;—1</item>
+                     <item>
+                        <hi>George Clark</hi> Esq;—1</item>
+                     <item>
+                        <hi>— Benson</hi> Esq;—1</item>
+                     <item>
+                        <hi>Henry Crispe</hi> Esq;—1</item>
+                     <item>
+                        <hi>— Wyn</hi> Esq;—1</item>
+                     <item>
+                        <hi>— Massemburgh</hi> Esq;—1</item>
+                     <item>
+                        <hi>Charles Scarborough</hi> Esq;—1</item>
+                     <item>Mr <hi>John Lilly</hi>—1</item>
+                     <item>Dr <hi>John Lock</hi>—1</item>
+                     <item>Mr <hi>Anthony Keck</hi>—1</item>
+                     <item>Mr <hi>Charles Trimnel</hi>—1</item>
+                     <item>Mr <hi>Henry Halstead</hi>—1</item>
+                     <item>
+                        <hi>Erasmus Earle</hi> Esq;—1</item>
+                  </list>
+               </div>
+               <div type="part">
+                  <head>The University of CAMBRIDGE.</head>
+                  <list>
+                     <item>HIS Grace the Duke of <hi>Somerset,</hi> Chancellor—3 <hi>Sets.</hi>
+                     </item>
+                     <item>The Reverend Dr <hi>Henry James,</hi> Vice-Chancellor—1</item>
+                  </list>
+                  <list>
+                     <head>KING's College.</head>
+                     <item>Dr <hi>Charles Roderick,</hi> Provost—2 <hi>Sets.</hi>
+                     </item>
+                     <item>The College <hi>Library</hi>—1</item>
+                     <item>The Earl of <hi>Holdernesse</hi>—2</item>
+                     <item>Mr <hi>John Smith</hi> A.M. Vice-Prov:—1</item>
+                     <item>Mr <hi>William Stevens</hi> A. M.—1</item>
+                     <item>Mr <hi>Henry Bowles</hi> A. M.—1</item>
+                     <item>Mr <hi>John Layton</hi> A. M.—1</item>
+                     <item>Mr <hi>William Bullock</hi> A. M.—1</item>
+                     <item>Mr <hi>Charles Herbert</hi> A. M.—1</item>
+                     <item>Mr <hi>Samuel Noyes</hi> A. M.—1</item>
+                     <item>Mr <hi>Richard Stevens</hi> A. M.—1</item>
+                     <item>Mr <hi>Robert Cannon</hi> A. M.—1</item>
+                     <item>Mr <hi>John Turner</hi> A. M.—1</item>
+                     <item>Mr <hi>William Rosewell</hi> A. M.—1</item>
+                     <item>Mr <hi>Eldred Gael</hi> A. M.—1</item>
+                     <item>Mr <hi>Edward Waddington</hi> A. M.—1</item>
+                     <item>Mr <hi>Edward Martyn</hi> A. M.—1</item>
+                     <item>Mr <hi>Francis Hare</hi> A. M.—1</item>
+                     <item>Mr <hi>Walter Goodfellow</hi> A. M.—1</item>
+                     <item>Mr <hi>Th: Offley</hi> A. M.—1</item>
+                     <item>Mr <hi>William Montague</hi> A. M.—1</item>
+                     <item>Mr <hi>William Trimnel</hi> A. M.—1</item>
+                     <item>Mr <hi>William Wilson</hi> A. B.—1</item>
+                     <item>Mr <hi>John Hutton</hi> A. B.—1</item>
+                     <item>
+                        <hi>Jos: Alston</hi> Esq;—2</item>
+                     <item>
+                        <hi>Jos: Hern</hi> Esq;—1</item>
+                     <item>
+                        <hi>Godfrey Woodward</hi> Esq;—1</item>
+                     <item>
+                        <hi>Henry Proctor</hi> Esq;—1</item>
+                     <item>
+                        <hi>John Avory</hi> Esq;—1</item>
+                     <item>
+                        <hi>John Leigh</hi> Esq;—1</item>
+                  </list>
+                  <list>
+                     <head>TRINITY College.</head>
+                     <item>The Hon<seg rend="sup">ble</seg> Dr <hi>John Montague</hi> Master—2 </item>
+                     <item>The College <hi>Library</hi>—1</item>
+                     <item>The Earl of <hi>Hartford</hi>—1</item>
+                     <item>The Honourable <hi>Henry Boyle</hi>—2</item>
+                     <item>Dr <hi>W. Lynnet</hi>—1</item>
+                     <item>Dr <hi>V. Stubbe</hi>—1</item>
+                     <pb facs="tcp:38149:4"/>
+                     <item> Dr <hi>H. Firebrace</hi>—1</item>
+                     <item>Mr <hi>George Modd</hi> A. M.—1</item>
+                     <item>Mr <hi>William Gostwyke</hi> A. M.—1</item>
+                     <item>Mr <hi>Thomas Smith</hi> A. M.—1</item>
+                     <item>Mr <hi>Richard Bynnes</hi> A. M.—1</item>
+                     <item>Mr <hi>Daniel Hopkins</hi> A. M.—1</item>
+                     <item>Mr <hi>Stephen Cressar</hi> A. M.—1</item>
+                     <item>Mr <hi>William Ayloffe</hi> A. M.—1</item>
+                     <item>Mr <hi>John Colbatch</hi> A. M.—1</item>
+                     <item>Mr <hi>Robert Lightfoot</hi> A. M.—1</item>
+                     <item>Mr <hi>Michael Hutchinson</hi> A. M.—1</item>
+                     <item>Mr <hi>John Hilton</hi> A. M.—1</item>
+                     <item>Mr <hi>James Braborne</hi> A. M.—1</item>
+                     <item>Mr <hi>Thomas Hobart</hi> A. M.—1</item>
+                     <item>Mr <hi>John Payne</hi> A. M.—1</item>
+                     <item>Mr <hi>Bar: Fairfax</hi> A. M.—1</item>
+                     <item>Mr <hi>Henry Colman</hi> A. M.—1</item>
+                     <item>Mr <hi>George Tilson</hi> A. M.—1</item>
+                     <item>Mr <hi>William Wade</hi> A. M.—1</item>
+                     <item>The Hon<seg rend="sup">ble</seg>
+                        <hi>D. Windsor</hi> A. M.—1</item>
+                     <item>Mr <hi>Roger Gael</hi> A. M.—1</item>
+                     <item>Mr <hi>Laurence Broderick</hi> A. M.—1</item>
+                     <item>
+                        <hi>Richard Edgcumbe</hi> Esq; A. M.—1</item>
+                     <item>
+                        <hi>John Le Neve</hi> Esq;—1</item>
+                     <item>
+                        <hi>Charles Firebrace</hi> Esq;—1</item>
+                     <item>
+                        <hi>Henry Campion</hi> Esq;—1</item>
+                     <item>
+                        <hi>John Yardley</hi> Esq;—1</item>
+                     <item>
+                        <hi>Daniel Colwal</hi> Es;—1</item>
+                  </list>
+                  <list>
+                     <head>St. JOHN's College.</head>
+                     <item>Dr <hi>Humphrey Gower</hi> Master—1</item>
+                     <item>The College <hi>Library</hi>—1</item>
+                     <item>The Hon<seg rend="sup">ble</seg>
+                        <hi>Charles Cecil</hi> Esq;—1</item>
+                     <item>The Hon<seg rend="sup">ble</seg>
+                        <hi>Edward Cecil</hi> Esq;—1</item>
+                     <item>Dr <hi>Thomas Thurlin</hi> President—1</item>
+                     <item>Dr <hi>Thomas Smoult</hi>—1</item>
+                     <item>Dr <hi>Charles Otway</hi> LL. D.—1</item>
+                     <item>Mr <hi>Thomas Brown</hi> B. D.—1</item>
+                     <item>Mr <hi>Benjamin Conway</hi> B. D.—1</item>
+                     <item>
+                        <hi>Anthony Hammond</hi> Esq; A. M.—1</item>
+                     <item>
+                        <hi>Christopher Calthorp</hi> Esq;—1</item>
+                     <item>
+                        <hi>Thomas De Grey</hi> Esq;—1</item>
+                     <item>
+                        <hi>Peter Calfe</hi> Esq;—1</item>
+                     <item>
+                        <hi>Thomas Price</hi> Esq;—1</item>
+                     <item>
+                        <hi>John Warren</hi> Esq;—1</item>
+                  </list>
+                  <list>
+                     <head>PETER HOUSE.</head>
+                     <item>The <hi>Library.</hi>—1</item>
+                     <item>Mr <hi>George Trig</hi> A. M.—1</item>
+                  </list>
+                  <list>
+                     <head>CLARE Hall.</head>
+                     <item>Dr <hi>Samuel Blithe</hi> Master—1</item>
+                     <item>The <hi>Library</hi>—1</item>
+                     <item>Mr <hi>Robert Herne</hi> A. M.—1</item>
+                     <item>Mr <hi>Thomas Ashton</hi> A. M.—1</item>
+                     <item>Mr <hi>Richard Laughton</hi> A. M.—1</item>
+                     <item>Mr <hi>George May</hi> A. M.—1</item>
+                     <item>Mr <hi>John Jennings</hi> A. M.—1</item>
+                     <item>
+                        <hi>John Acton</hi> Esq;—1</item>
+                     <item>
+                        <hi>Edward Ward</hi> Esq;—1</item>
+                  </list>
+                  <list>
+                     <head>PEMBROKE Hall</head>
+                     <item>Dr <hi>Thomas Brown</hi> Master—1</item>
+                     <item>The <hi>Library</hi>—1</item>
+                     <item>Mr <hi>Tho: Crouch</hi> A. M. President—1</item>
+                     <item>Mr <hi>Marm: Tyrwhit</hi> A. M.—1</item>
+                     <item>
+                        <hi>Edmund Bacon</hi> Esq;—1</item>
+                     <item>Mr <hi>Thomas Ralph</hi> A. B.—1</item>
+                     <item>Mr <hi>Robert Turner</hi> A. B.—1</item>
+                     <item>Mr <hi>Fr: Foote</hi>—1</item>
+                     <item>Mr <hi>John Browning</hi>—1</item>
+                  </list>
+                  <list>
+                     <head>CORPUS CHRISTI College.</head>
+                     <item>Dr <hi>Thomas Green</hi> Master—1</item>
+                     <item>The College <hi>Library</hi>—1</item>
+                     <item>Mr <hi>Robert Moss</hi> B. D.—1</item>
+                     <item>
+                        <hi>William Berners</hi> Esq;—1</item>
+                  </list>
+                  <list>
+                     <head>TRINITY Hall.</head>
+                     <item>The <hi>Library</hi>—1</item>
+                     <item>Dr <hi>John Brookbank</hi> LL. D.—1</item>
+                     <item>Mr <hi>William Allen</hi> LL. B.—1</item>
+                  </list>
+                  <list>
+                     <pb facs="tcp:38149:4"/>
+                     <head>CAIUS College.</head>
+                     <item>Dr <hi>Robert Brady</hi> M. D. Master—1</item>
+                     <item>The College <hi>Library</hi>—1</item>
+                     <item>Mr <hi>John Lightwine</hi> A. M.—1</item>
+                  </list>
+                  <list>
+                     <head>QUEEN's College.</head>
+                     <item>The College <hi>Library</hi>—1</item>
+                     <item>The Lord <hi>Villers</hi>—1</item>
+                     <item>Dr <hi>Ralph Perkins</hi> LL. D.—1</item>
+                     <item>Mr <hi>John Poley</hi> B. D.—1</item>
+                     <item>Mr <hi>James Smith</hi> B. D.—1</item>
+                     <item>Mr <hi>William Smith</hi> B. D.—2</item>
+                     <item>Mr <hi>John Rolle</hi> A. M.—1</item>
+                     <item>
+                        <hi>John Plumptree</hi> Esq;—1</item>
+                     <item>
+                        <hi>Nic: Williams</hi> Esq;—1</item>
+                     <item>
+                        <hi>Christopher Clapham</hi> Esq▪—1</item>
+                  </list>
+                  <list>
+                     <head>KATHERINE Hall.</head>
+                     <item>Sir <hi>William Dawes</hi> D. D. Master—1</item>
+                     <item>The <hi>Library</hi>—1</item>
+                     <item>Mr <hi>Samuel Lea</hi> A. M.—1</item>
+                     <item>Mr <hi>William Western</hi> A. M.—1</item>
+                     <item>Mr <hi>Benjamin Hoadley</hi> A. B.—1</item>
+                     <item>Mr <hi>Thomas Sherlock</hi> A. B.—1</item>
+                     <item>Mr <hi>Richard Clotterbook</hi>—1</item>
+                     <item>Mr <hi>William Worts</hi>—1</item>
+                  </list>
+                  <list>
+                     <head>JESUS College.</head>
+                     <item>The <hi>Library</hi>—1</item>
+                  </list>
+                  <list>
+                     <head>CHRIST's College.</head>
+                     <item>Dr <hi>John Covel</hi> Master—1</item>
+                     <item>The <hi>Library</hi>—1</item>
+                     <item>The Honourable <hi>Rich: Bulkeley</hi>—1</item>
+                     <item>Mr <hi>Thomas Standish</hi> A. M.—1</item>
+                     <item>Mr <hi>Thomas Lovett</hi> A. M.—1</item>
+                     <item>Mr <hi>Daniel Duckfield</hi> A. M.—1</item>
+                     <item>Mr <hi>Alexander Young</hi> A. M.—1</item>
+                     <item>Mr <hi>William Withers</hi> A. M.—1</item>
+                     <item>Mr <hi>Thomas Thurston</hi> M. B.—1</item>
+                     <item>
+                        <hi>Thomas Turnor</hi> Esq;—1</item>
+                  </list>
+                  <list>
+                     <head>MAGDALENE College.</head>
+                     <item>Dr <hi>Gabriel Quadring</hi> Master—1</item>
+                     <item>The College <hi>Library</hi>—1</item>
+                     <item>The Hon<seg rend="sup">ble</seg>
+                        <hi>Arthur Annesley</hi> Esq;—1</item>
+                  </list>
+                  <list>
+                     <head>EMMANUEL College.</head>
+                     <item>The College <hi>Library</hi>—1</item>
+                     <item>Mr <hi>Gerv: Needham</hi> B. D.—1</item>
+                     <item>Mr <hi>Thomas Little</hi> B. D.—2</item>
+                     <item>Mr <hi>William Peirs</hi> B. D.—1</item>
+                     <item>Mr <hi>William Savage</hi> A. M.—1</item>
+                  </list>
+                  <list>
+                     <head>SIDNEY College.</head>
+                     <item>The College <hi>Library</hi>—1</item>
+                     <item>Mr <hi>Thomas Walker</hi> B. D.—1</item>
+                     <item>Mr <hi>Thomas Woolston</hi> A. M.—1</item>
+                  </list>
+                  <list>
+                     <head>Esquire Bedells.</head>
+                     <item>
+                        <hi>Hugh Martin</hi> A. M.—1</item>
+                     <item>
+                        <hi>John Perne</hi> A. M.—1</item>
+                  </list>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
